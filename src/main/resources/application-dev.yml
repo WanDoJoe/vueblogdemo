@@ -1,0 +1,14 @@
+
+server:
+  port:8082
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:/home/wan/IDEA/workspaces/vueblog/src/main/resources/h2db  #；AUTO_SERVER=TRUE
+    username: wan
+    password: wan
+
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper**Mapper.xml
